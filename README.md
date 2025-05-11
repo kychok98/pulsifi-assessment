@@ -3,6 +3,7 @@
 A NestJS-based API to search roundtrip flights using Skyscanner (RapidAPI). 
 - Search between any date range
 - Sort by cheapest price
+- 10% discount if trip > 10 days
 - Mock data response
 
 ### 🛠 Tech Stack

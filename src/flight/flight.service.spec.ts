@@ -16,7 +16,7 @@ const mockFlightData = {
               {
                 origin: { id: 'JFK', displayCode: 'JFK' },
                 destination: { id: 'HNL', displayCode: 'HNL' },
-                departure: '2024-08-22T10:00:00',
+                departure: '2024-08-12T10:00:00',
                 durationInMinutes: 300,
                 stopCount: 1,
                 carriers: {
@@ -42,7 +42,7 @@ const mockFlightData = {
               {
                 origin: { id: 'JFK', displayCode: 'JFK' },
                 destination: { id: 'HNL', displayCode: 'HNL' },
-                departure: '2024-08-22T10:00:00',
+                departure: '2024-08-12T10:00:00',
                 durationInMinutes: 300,
                 stopCount: 1,
                 carriers: {
@@ -73,7 +73,7 @@ const mockFlightData = {
               {
                 origin: { id: 'JFK', displayCode: 'JFK' },
                 destination: { id: 'HNL', displayCode: 'HNL' },
-                departure: '2024-08-22T10:00:00',
+                departure: '2024-08-12T10:00:00',
                 durationInMinutes: 300,
                 stopCount: 1,
                 carriers: {
@@ -99,7 +99,7 @@ const mockFlightData = {
               {
                 origin: { id: 'JFK', displayCode: 'JFK' },
                 destination: { id: 'HNL', displayCode: 'HNL' },
-                departure: '2024-08-22T10:00:00',
+                departure: '2024-08-12T10:00:00',
                 durationInMinutes: 300,
                 stopCount: 1,
                 carriers: {
@@ -149,7 +149,7 @@ describe('FlightService', () => {
 
   it('should return matched and transformed flights with count', async () => {
     const dto: SearchFlightDto = {
-      inDate: '2024-08-22',
+      inDate: '2024-08-12',
       outDate: '2024-08-25',
       from: 'JFK',
       to: 'HNL',
@@ -162,11 +162,11 @@ describe('FlightService', () => {
 
     expect(result.data[0]).toEqual({
       id: 'mock-1',
-      price: '$400',
+      price: '$360',
       carrier: 'Delta',
       from: 'JFK',
       to: 'HNL',
-      departTime: '2024-08-22T10:00:00',
+      departTime: '2024-08-12T10:00:00',
       returnTime: '2024-08-25T15:45:00',
       durationInMinutes: 620,
       stops: 2,
@@ -231,5 +231,20 @@ describe('FlightService', () => {
 
     const result = await service.searchFlights(dto);
     expect(result).toEqual({ data: [], count: 0 });
+  });
+
+  it('should apply 10% discount if duration > 10 days', async () => {
+    const dto: SearchFlightDto = {
+      inDate: '2024-08-12',
+      outDate: '2024-08-25', // 14 days trip
+      from: 'JFK',
+      to: 'HNL',
+    };
+
+    const result = await service.searchFlights(dto);
+
+    expect(result.count).toBe(2);
+    expect(result.data[0].price).toBe('$360'); // 10% off from $400
+    expect(result.data[1].price).toBe('$450'); // 10% off from $500
   });
 });

@@ -1,5 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { safeDate } from '../utils/date';
+import { applyDiscountRules } from '../utils/discount';
 import { SearchFlightDto } from './dto/search-flight.dto';
 import {
   ItineraryBucket,
@@ -10,6 +11,12 @@ import { SkyscannerService } from './skyscanner/skyscanner.service';
 @Injectable()
 export class FlightService {
   private readonly logger = new Logger(FlightService.name);
+
+  private static _calculateDiffInDays(start: string, end: string): number {
+    const startTime = new Date(start).getTime();
+    const endTime = new Date(end).getTime();
+    return (endTime - startTime) / (1000 * 60 * 60 * 24);
+  }
 
   constructor(private readonly skyscannerService: SkyscannerService) {}
 
@@ -22,6 +29,7 @@ export class FlightService {
 
     const transformed = this._transformResults(
       matched.sort((a, b) => a.price.raw - b.price.raw),
+      FlightService._calculateDiffInDays(dto.inDate, dto.outDate),
     );
     this.logger.log(transformed);
 
@@ -78,14 +86,16 @@ export class FlightService {
     return true;
   }
 
-  private _transformResults(items: ItineraryItem[]) {
+  private _transformResults(items: ItineraryItem[], diffInDays: number) {
     return items.map((item) => {
       const [outbound, inbound] = item.legs;
       const carrier = outbound.carriers.marketing[0];
 
+      const finalPrice = applyDiscountRules(item.price.raw, diffInDays);
+
       return {
         id: item.id,
-        price: item.price.formatted,
+        price: `$` + finalPrice.toFixed(0),
         carrier: carrier?.name,
         from: outbound.origin.displayCode,
         to: outbound.destination.displayCode,
