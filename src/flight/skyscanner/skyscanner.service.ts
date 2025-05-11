@@ -1,13 +1,18 @@
-import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
 import { HttpService } from '@nestjs/axios';
-import { firstValueFrom } from 'rxjs';
+import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs';
 import * as path from 'path';
+import { firstValueFrom } from 'rxjs';
 import { FlightResponse } from '../interfaces/flight-response.interface';
 
 @Injectable()
 export class SkyscannerService {
+  private mockPath = path.resolve(
+    __dirname,
+    '../../../src/mocks/complete-response.json',
+  );
+
   constructor(
     private readonly httpService: HttpService,
     private readonly configService: ConfigService,
@@ -16,11 +21,7 @@ export class SkyscannerService {
   async searchFlights(): Promise<FlightResponse> {
     const useMock = this.configService.get('USE_FLIGHT_MOCK') === 'true';
     if (useMock) {
-      const mockPath = path.resolve(
-        __dirname,
-        '../../../src/mocks/mock-response.json',
-      );
-      const mockData = fs.readFileSync(mockPath, 'utf-8');
+      const mockData = fs.readFileSync(this.mockPath, 'utf-8');
       return JSON.parse(mockData);
     }
 

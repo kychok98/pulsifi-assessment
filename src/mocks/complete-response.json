@@ -1,0 +1,4315 @@
+{
+  "accommodations": {
+    "buckets": [],
+    "context": {
+      "sessionId": "836f4458a85b43fa86dc7c54a1d6a813",
+      "status": "complete_not_modified",
+      "totalResults": 0
+    },
+    "results": []
+  },
+  "brandCarousel": {
+    "buckets": null,
+    "context": {
+      "sessionId": "79597f2f-158e-4e67-ace1-e9208b5f899f",
+      "status": "complete",
+      "totalResults": 0
+    },
+    "results": []
+  },
+  "brandInlines": {
+    "buckets": null,
+    "context": {
+      "sessionId": "79597f2f-158e-4e67-ace1-e9208b5f899f",
+      "status": "complete",
+      "totalResults": 0
+    },
+    "results": []
+  },
+  "carHire": {
+    "buckets": [],
+    "context": {
+      "sessionId": "f28dc307-a56e-45f1-a819-2857c7b43a3e",
+      "status": "complete_not_modified",
+      "totalResults": 0
+    },
+    "results": []
+  },
+  "context": {
+    "sessionId": "Ci4IARIqCigKJDc5NTk3ZjJmLTE1OGUtNGU2Ny1hY2UxLWU5MjA4YjVmODk5ZhABCioIAhImCiQKIDgzNmY0NDU4YTg1YjQzZmE4NmRjN2M1NGExZDZhODEzEAEKLggDEioKKAokZjI4ZGMzMDctYTU2ZS00NWYxLWE4MTktMjg1N2M3YjQzYTNlEAESKHVzc18yNmRiZjIwZC00ZDVjLTRlMjAtODI2ZC0yZGFkYmQxOWY4NjQ=",
+    "status": "complete"
+  },
+  "itineraries": {
+    "agents": null,
+    "alliances": null,
+    "buckets": [
+      {
+        "id": "Best",
+        "items": [
+          {
+            "adInfos": [
+              {
+                "appIndexList": [
+                  0
+                ],
+                "backgroundColor": "#d9fdfe",
+                "creativeId": "CAM-1398cb4b-56f4-474c-a124-34ec079fc533",
+                "format": "flightsItineraryInlinePlus",
+                "formatId": "fmt.flightsItineraryInlinePlus",
+                "headline": " Fly to Honolulu for less with Wizfair deals!",
+                "index": 0,
+                "isOrganic": false,
+                "partner": "wfus",
+                "partnerId": "wfus",
+                "partnerLogoUrl": "https://s3-eu-west-1.amazonaws.com/sponsored-portal-uploads-prod/content%2F3906409564c35ec4823ee07c6b3ad092.png",
+                "partnerName": "Wizfair",
+                "partnerType": "ota",
+                "placementId": "android.flights.combinedresults/inline",
+                "price": {
+                  "formatted": "$1,181",
+                  "pricingOptionId": "gnZcCKugIMFA",
+                  "raw": 1180.41
+                },
+                "redirectUrl": "https://skyscanner.net/transport_deeplink/4.0/US/en-US/USD/wfus/2/12712.12240.2024-08-22,12240.12712.2024-08-25/air/trava/inlineads?itinerary=flight%7C-32593%7C21%7C12712%7C2024-08-22T09%3A30%7C16177%7C2024-08-22T12%3A37%7C367%7C-%7C-%7C-%3Bflight%7C-32593%7C853%7C16177%7C2024-08-22T15%3A59%7C12240%7C2024-08-22T19%3A03%7C364%7C-%7C-%7C-%2Cflight%7C-32249%7C50%7C12240%7C2024-08-25T15%3A45%7C12712%7C2024-08-26T07%3A25%7C580%7C-%7C-%7C-&carriers=-32593%2C-32249&operators=-32593%3B-32593%2C-32249&passengers=1&channel=android&cabin_class=economy&fps_session_id=79597f2f-158e-4e67-ace1-e9208b5f899f&ticket_price=1180.41&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=b36f6bfb-4feb-4373-82fc-8fdabd3e4d00&q_ids=H4sIAAAAAAAA_-NS4GIpTystFmLm6NGVYua4EK_Q8H_mNjaNhhcrt7EZMSkwAgD78FizIgAAAA%7C-5311097768089270245%7C2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-08-21T07%3A29%3A50&pqid=false&facilitated=false&requested_depth=DAY_VIEW&creative_id=CAM-1398cb4b-56f4-474c-a124-34ec079fc533_*%2F*%2F*%2F*%2F*%2F*&redirect_delay=0",
+                "sponsoredText": "Sponsored",
+                "textColor": "#000000",
+                "trackingId": "2d397774-5ea0-429f-8cb6-1d652502e7db",
+                "trackingPixels": {
+                  "clickUrls": [
+                    "/g/aps/public/api/v1/pixel/click?encryptedData=AdLjTr6cd2G02tBufWgFUpCUEGxxX0X20ezArEf0UXznW2Wa4f8cYfAWMxQWObBPnQBTIZfSMGfiJqQ%2FzeRkwdUzdsB9rfiMcLoZVFZnNCbwWir4xcfwwZpWgzRQWw8%2FRNave4%2BZ9b6hGQOMhT68HlkhynYZ71xt8UkfidxpTf%2FvNMX%2BvQWOHOWkq5QCIeahsdr9mNvDzomBEWwCivkeY1o1CA1V0hHKTAq%2BMG%2B4nmcBG3erdSMkTiaGUcS1RrYnh3g3erB9RbjblgrNIRhw3YMTqTDNky3nL8iy7OXWCOvh7ft0Qvivp5WGnaSoxr4xOWkB4RgnlSrRcLM0ZalfTUVgcauN2liHJ3RwD5r4M1U0xC%2BXNHcnb9rbiCoTgfnIXyqxbbVOSPVUHNv3mN388dH4lC70psy07Fs4Hfukp79ra58nmKzsHqEW856XPkMlFNZ%2BAOXePpdaA6OI5YZ3tCeYYce6XH5rIkxxQOZIq2%2BEdvOn9Z%2FJj93q53PFQ80Ng6N5oqMlAlFdOfJyt1ciwwO0gez3QJ5YZ3osnYxazU9z3SspyU5J8ny1WRZv%2FUpx50ZhsQ%3D%3D&updatedPosition=1"
+                  ],
+                  "engageUrls": [
+                    "/g/aps/public/api/v1/pixel/engage?encryptedData=AYuYgz4rKmmr0%2FRYaQodRB9i07Hjp5AuRN0%2BTn7XC5dKwpD%2FbOUSgLXWtEhgyn3ul6XtUIQrPl1pLUPMfg9%2B7q%2ByeeI5kUdi7fr%2FZuITfhybHjKDHPRvJiAdfWFwwqrKlz7yCFHvDPz5hMAJyD3bLQlIJRVttgPgx8oYSl15NtE%2FzYPvoTKJVxdzWbJNWtAUHobYr%2BG2RdMOmom%2FkB0XSkzx5DsZXDgdGaX4UFEhg3laxL9%2FFndYdiYh9vBXibTuUK3QlCrsi0h%2ByQWeWmGPQOY%2FjX%2BrIMFmbuYOcUC8z%2B0FbJZMPZ%2F%2Bb%2BnMPDys91gV7ANh&updatedPosition=1"
+                  ],
+                  "impressionUrls": [
+                    "/g/aps/public/api/v1/pixel/impression?encryptedData=AYxAmp0atHjVesWwdwurIgsoNLt7IuNMr2BGl7Vks%2BQZoGCtQxeg%2B6NKhF%2B5Bqo367In6jcFJ6WTk1piySX3AiDzoi%2BEAt7%2Bz8oB4RnQ6nlkxf3GxibmLTwO%2FqlUPsINVVklsAvRknbCmyp4WDW9gzaLrI7zUhTHN8ID7WythWGjg5nw9nNg%2BDf0yvwIioXDCpe7KlxKfpYhX6tCfzScxL8Suk321lCk3uDItQ1x1uZjjtdWOuOb5FjiWXNeCct8WEsjVvK3jz3Z0KnsH%2BrtWj1nwWWgCnKHsJsW4P1Nw7tWXF9CT5JTks9fZKpYSPzGWbHY0jhXhsa6Rd1eIiKR18lGLMevukd2ZQECzgUCyiz1zPrGKhcHhBEwPH%2FrTCSWicz8ib8MeZqY1RwZsLc4ORXx4Aa68zPyQ%2BKKS4EWiTLuJePKjcgKytmPUCALRXi7mpMjcwP%2Fx1BTwWBd0XjlkKNg2PhPn6caLYoCb8mtfUciD5pRdWeQqxWGtD6jPb0NBQMPEuxePxjsR8MpSTg%3D&updatedPosition=1"
+                  ],
+                  "viewUrls": [
+                    "/g/aps/public/api/v1/pixel/view?encryptedData=AXQUKDtWnbQg4IAWHNSbPCdpS68b2lupz%2FOdRs37m2mp%2Fmp0AVhtQO4pPCaRN8CLL29kmLO3CS%2BX5iCWTuvqv85u3S3Tk5XVizbCdZ0FrIqqYV7%2FjraYSOJdcp9f%2BFlu4DtXxBgJFSj6qDeyuE8WC1jhUJfk77DG5lzc7bJxN24OOOKcRh2w%2B7OdbVVwAb0PRbZ%2FSBeyci9%2Bt7uJi%2BooUqm6jSdGvFfZMh30Y1H2gdAbJt9U6MJmyQZcAx96BBJ2qgl%2FRr6NNDWkRCdT6Cv6ggaClaS%2FM0RzWXx1pyktMrWyCxL2kD%2BpQKOV%2B4xg56m4R7nT&updatedPosition=1"
+                  ]
+                }
+              }
+            ],
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "12712-2408220930--32593-1-12240-2408221903|12240-2408251545--32249-0-12712-2408260725",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T19:03:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32593,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                      "name": "Alaska Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T09:30:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 933,
+                "id": "12712-2408220930--32593-1-12240-2408221903",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T12:37:00",
+                    "departure": "2024-08-22T09:30:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "SEA",
+                      "flightPlaceId": "SEA",
+                      "name": "Seattle / Tacoma International",
+                      "parent": {
+                        "displayCode": "SEA",
+                        "flightPlaceId": "SEAA",
+                        "name": "Seattle",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 367,
+                    "flightNumber": "21",
+                    "id": "12712-16177-2408220930-2408221237--32593",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-22T19:03:00",
+                    "departure": "2024-08-22T15:59:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 364,
+                    "flightNumber": "853",
+                    "id": "16177-12240-2408221559-2408221903--32593",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "SEA",
+                      "flightPlaceId": "SEA",
+                      "name": "Seattle / Tacoma International",
+                      "parent": {
+                        "displayCode": "SEA",
+                        "flightPlaceId": "SEAA",
+                        "name": "Seattle",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:25:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T15:45:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "durationInMinutes": 580,
+                "id": "12240-2408251545--32249-0-12712-2408260725",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-26T07:25:00",
+                    "departure": "2024-08-25T15:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 580,
+                    "flightNumber": "50",
+                    "id": "12240-12712-2408251545-2408260725--32249",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$1,181",
+              "pricingOptionId": "gnZcCKugIMFA",
+              "raw": 1180.41
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "wfus"
+                ],
+                "fareAttributes": {},
+                "items": [
+                  {
+                    "agentId": "wfus",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1180.41
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1180.41
+                },
+                "pricingOptionId": "gnZcCKugIMFA"
+              }
+            ],
+            "score": 0.457025
+          },
+          {
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "13522-2408220730--31722-1-12240-2408221344|12240-2408251320--31722-1-11442-2408260724",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T13:44:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T07:30:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 734,
+                "id": "13522-2408220730--31722-1-12240-2408221344",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "LGA",
+                  "entityId": "95565057",
+                  "id": "LGA",
+                  "isHighlighted": true,
+                  "name": "New York LaGuardia"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T09:06:00",
+                    "departure": "2024-08-22T07:30:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "ORD",
+                      "flightPlaceId": "ORD",
+                      "name": "Chicago O'Hare International",
+                      "parent": {
+                        "displayCode": "CHI",
+                        "flightPlaceId": "CHIA",
+                        "name": "Chicago",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 156,
+                    "flightNumber": "224",
+                    "id": "13522-15062-2408220730-2408220906--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LGA",
+                      "flightPlaceId": "LGA",
+                      "name": "New York LaGuardia",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-22T13:44:00",
+                    "departure": "2024-08-22T09:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 539,
+                    "flightNumber": "219",
+                    "id": "15062-12240-2408220945-2408221344--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "ORD",
+                      "flightPlaceId": "ORD",
+                      "name": "Chicago O'Hare International",
+                      "parent": {
+                        "displayCode": "CHI",
+                        "flightPlaceId": "CHIA",
+                        "name": "Chicago",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:24:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T13:20:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "EWR",
+                  "entityId": "95565059",
+                  "id": "EWR",
+                  "isHighlighted": true,
+                  "name": "New York Newark"
+                },
+                "durationInMinutes": 724,
+                "id": "12240-2408251320--31722-1-11442-2408260724",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-25T21:48:00",
+                    "departure": "2024-08-25T13:20:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 328,
+                    "flightNumber": "1157",
+                    "id": "12240-13416-2408251320-2408252148--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-26T07:24:00",
+                    "departure": "2024-08-25T23:15:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "EWR",
+                      "flightPlaceId": "EWR",
+                      "name": "New York Newark",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 309,
+                    "flightNumber": "2241",
+                    "id": "13416-11442-2408252315-2408260724--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$669",
+              "pricingOptionId": "ZlNfXpzcK1YU",
+              "raw": 668.4
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "uair"
+                ],
+                "items": [
+                  {
+                    "agentId": "uair",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 668.4
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 668.4
+                },
+                "pricingOptionId": "ZlNfXpzcK1YU"
+              }
+            ],
+            "score": 0.999,
+            "tags": [
+              "cheapest"
+            ]
+          },
+          {
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "13522-2408220645--31722-1-12240-2408221344|12240-2408251320--31722-1-11442-2408260724",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T13:44:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T06:45:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 779,
+                "id": "13522-2408220645--31722-1-12240-2408221344",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "LGA",
+                  "entityId": "95565057",
+                  "id": "LGA",
+                  "isHighlighted": true,
+                  "name": "New York LaGuardia"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T08:20:00",
+                    "departure": "2024-08-22T06:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "ORD",
+                      "flightPlaceId": "ORD",
+                      "name": "Chicago O'Hare International",
+                      "parent": {
+                        "displayCode": "CHI",
+                        "flightPlaceId": "CHIA",
+                        "name": "Chicago",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 155,
+                    "flightNumber": "2389",
+                    "id": "13522-15062-2408220645-2408220820--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LGA",
+                      "flightPlaceId": "LGA",
+                      "name": "New York LaGuardia",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-22T13:44:00",
+                    "departure": "2024-08-22T09:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 539,
+                    "flightNumber": "219",
+                    "id": "15062-12240-2408220945-2408221344--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "ORD",
+                      "flightPlaceId": "ORD",
+                      "name": "Chicago O'Hare International",
+                      "parent": {
+                        "displayCode": "CHI",
+                        "flightPlaceId": "CHIA",
+                        "name": "Chicago",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:24:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T13:20:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "EWR",
+                  "entityId": "95565059",
+                  "id": "EWR",
+                  "isHighlighted": true,
+                  "name": "New York Newark"
+                },
+                "durationInMinutes": 724,
+                "id": "12240-2408251320--31722-1-11442-2408260724",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-25T21:48:00",
+                    "departure": "2024-08-25T13:20:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 328,
+                    "flightNumber": "1157",
+                    "id": "12240-13416-2408251320-2408252148--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-26T07:24:00",
+                    "departure": "2024-08-25T23:15:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "EWR",
+                      "flightPlaceId": "EWR",
+                      "name": "New York Newark",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 309,
+                    "flightNumber": "2241",
+                    "id": "13416-11442-2408252315-2408260724--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$669",
+              "pricingOptionId": "vfvKwJsOJV1y",
+              "raw": 668.4
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "uair"
+                ],
+                "items": [
+                  {
+                    "agentId": "uair",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 668.4
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 668.4
+                },
+                "pricingOptionId": "vfvKwJsOJV1y"
+              }
+            ],
+            "score": 0.959666,
+            "tags": [
+              "second_cheapest"
+            ]
+          },
+          {
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "13522-2408220600--31722-1-12240-2408221321|12240-2408251320--31722-1-11442-2408260724",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T13:21:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T06:00:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 801,
+                "id": "13522-2408220600--31722-1-12240-2408221321",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "LGA",
+                  "entityId": "95565057",
+                  "id": "LGA",
+                  "isHighlighted": true,
+                  "name": "New York LaGuardia"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T08:50:00",
+                    "departure": "2024-08-22T06:00:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "IAH",
+                      "flightPlaceId": "IAH",
+                      "name": "Houston George Bush Intercntl.",
+                      "parent": {
+                        "displayCode": "HOU",
+                        "flightPlaceId": "HOUA",
+                        "name": "Houston",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 230,
+                    "flightNumber": "2355",
+                    "id": "13522-12389-2408220600-2408220850--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LGA",
+                      "flightPlaceId": "LGA",
+                      "name": "New York LaGuardia",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-22T13:21:00",
+                    "departure": "2024-08-22T10:05:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 496,
+                    "flightNumber": "253",
+                    "id": "12389-12240-2408221005-2408221321--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "IAH",
+                      "flightPlaceId": "IAH",
+                      "name": "Houston George Bush Intercntl.",
+                      "parent": {
+                        "displayCode": "HOU",
+                        "flightPlaceId": "HOUA",
+                        "name": "Houston",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:24:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T13:20:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "EWR",
+                  "entityId": "95565059",
+                  "id": "EWR",
+                  "isHighlighted": true,
+                  "name": "New York Newark"
+                },
+                "durationInMinutes": 724,
+                "id": "12240-2408251320--31722-1-11442-2408260724",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-25T21:48:00",
+                    "departure": "2024-08-25T13:20:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 328,
+                    "flightNumber": "1157",
+                    "id": "12240-13416-2408251320-2408252148--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-26T07:24:00",
+                    "departure": "2024-08-25T23:15:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "EWR",
+                      "flightPlaceId": "EWR",
+                      "name": "New York Newark",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 309,
+                    "flightNumber": "2241",
+                    "id": "13416-11442-2408252315-2408260724--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$669",
+              "pricingOptionId": "aWS1ZUwuNYn3",
+              "raw": 668.4
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "uair"
+                ],
+                "items": [
+                  {
+                    "agentId": "uair",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 668.4
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 668.4
+                },
+                "pricingOptionId": "aWS1ZUwuNYn3"
+              }
+            ],
+            "score": 0.941908,
+            "tags": [
+              "third_cheapest"
+            ]
+          }
+        ],
+        "name": "Best"
+      },
+      {
+        "id": "Cheapest",
+        "items": [
+          {
+            "adInfos": [
+              {
+                "appIndexList": [
+                  0
+                ],
+                "backgroundColor": "#d9fdfe",
+                "creativeId": "CAM-1398cb4b-56f4-474c-a124-34ec079fc533",
+                "format": "flightsItineraryInlinePlus",
+                "formatId": "fmt.flightsItineraryInlinePlus",
+                "headline": " Fly to Honolulu for less with Wizfair deals!",
+                "index": 0,
+                "isOrganic": false,
+                "partner": "wfus",
+                "partnerId": "wfus",
+                "partnerLogoUrl": "https://s3-eu-west-1.amazonaws.com/sponsored-portal-uploads-prod/content%2F3906409564c35ec4823ee07c6b3ad092.png",
+                "partnerName": "Wizfair",
+                "partnerType": "ota",
+                "placementId": "android.flights.combinedresults/inline",
+                "price": {
+                  "formatted": "$1,181",
+                  "pricingOptionId": "gnZcCKugIMFA",
+                  "raw": 1180.41
+                },
+                "redirectUrl": "https://skyscanner.net/transport_deeplink/4.0/US/en-US/USD/wfus/2/12712.12240.2024-08-22,12240.12712.2024-08-25/air/trava/inlineads?itinerary=flight%7C-32593%7C21%7C12712%7C2024-08-22T09%3A30%7C16177%7C2024-08-22T12%3A37%7C367%7C-%7C-%7C-%3Bflight%7C-32593%7C853%7C16177%7C2024-08-22T15%3A59%7C12240%7C2024-08-22T19%3A03%7C364%7C-%7C-%7C-%2Cflight%7C-32249%7C50%7C12240%7C2024-08-25T15%3A45%7C12712%7C2024-08-26T07%3A25%7C580%7C-%7C-%7C-&carriers=-32593%2C-32249&operators=-32593%3B-32593%2C-32249&passengers=1&channel=android&cabin_class=economy&fps_session_id=79597f2f-158e-4e67-ace1-e9208b5f899f&ticket_price=1180.41&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=b36f6bfb-4feb-4373-82fc-8fdabd3e4d00&q_ids=H4sIAAAAAAAA_-NS4GIpTystFmLm6NGVYua4EK_Q8H_mNjaNhhcrt7EZMSkwAgD78FizIgAAAA%7C-5311097768089270245%7C2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-08-21T07%3A29%3A50&pqid=false&facilitated=false&requested_depth=DAY_VIEW&creative_id=CAM-1398cb4b-56f4-474c-a124-34ec079fc533_*%2F*%2F*%2F*%2F*%2F*&redirect_delay=0",
+                "sponsoredText": "Sponsored",
+                "textColor": "#000000",
+                "trackingId": "2d397774-5ea0-429f-8cb6-1d652502e7db",
+                "trackingPixels": {
+                  "clickUrls": [
+                    "/g/aps/public/api/v1/pixel/click?encryptedData=AdLjTr6cd2G02tBufWgFUpCUEGxxX0X20ezArEf0UXznW2Wa4f8cYfAWMxQWObBPnQBTIZfSMGfiJqQ%2FzeRkwdUzdsB9rfiMcLoZVFZnNCbwWir4xcfwwZpWgzRQWw8%2FRNave4%2BZ9b6hGQOMhT68HlkhynYZ71xt8UkfidxpTf%2FvNMX%2BvQWOHOWkq5QCIeahsdr9mNvDzomBEWwCivkeY1o1CA1V0hHKTAq%2BMG%2B4nmcBG3erdSMkTiaGUcS1RrYnh3g3erB9RbjblgrNIRhw3YMTqTDNky3nL8iy7OXWCOvh7ft0Qvivp5WGnaSoxr4xOWkB4RgnlSrRcLM0ZalfTUVgcauN2liHJ3RwD5r4M1U0xC%2BXNHcnb9rbiCoTgfnIXyqxbbVOSPVUHNv3mN388dH4lC70psy07Fs4Hfukp79ra58nmKzsHqEW856XPkMlFNZ%2BAOXePpdaA6OI5YZ3tCeYYce6XH5rIkxxQOZIq2%2BEdvOn9Z%2FJj93q53PFQ80Ng6N5oqMlAlFdOfJyt1ciwwO0gez3QJ5YZ3osnYxazU9z3SspyU5J8ny1WRZv%2FUpx50ZhsQ%3D%3D&updatedPosition=1"
+                  ],
+                  "engageUrls": [
+                    "/g/aps/public/api/v1/pixel/engage?encryptedData=AYuYgz4rKmmr0%2FRYaQodRB9i07Hjp5AuRN0%2BTn7XC5dKwpD%2FbOUSgLXWtEhgyn3ul6XtUIQrPl1pLUPMfg9%2B7q%2ByeeI5kUdi7fr%2FZuITfhybHjKDHPRvJiAdfWFwwqrKlz7yCFHvDPz5hMAJyD3bLQlIJRVttgPgx8oYSl15NtE%2FzYPvoTKJVxdzWbJNWtAUHobYr%2BG2RdMOmom%2FkB0XSkzx5DsZXDgdGaX4UFEhg3laxL9%2FFndYdiYh9vBXibTuUK3QlCrsi0h%2ByQWeWmGPQOY%2FjX%2BrIMFmbuYOcUC8z%2B0FbJZMPZ%2F%2Bb%2BnMPDys91gV7ANh&updatedPosition=1"
+                  ],
+                  "impressionUrls": [
+                    "/g/aps/public/api/v1/pixel/impression?encryptedData=AYxAmp0atHjVesWwdwurIgsoNLt7IuNMr2BGl7Vks%2BQZoGCtQxeg%2B6NKhF%2B5Bqo367In6jcFJ6WTk1piySX3AiDzoi%2BEAt7%2Bz8oB4RnQ6nlkxf3GxibmLTwO%2FqlUPsINVVklsAvRknbCmyp4WDW9gzaLrI7zUhTHN8ID7WythWGjg5nw9nNg%2BDf0yvwIioXDCpe7KlxKfpYhX6tCfzScxL8Suk321lCk3uDItQ1x1uZjjtdWOuOb5FjiWXNeCct8WEsjVvK3jz3Z0KnsH%2BrtWj1nwWWgCnKHsJsW4P1Nw7tWXF9CT5JTks9fZKpYSPzGWbHY0jhXhsa6Rd1eIiKR18lGLMevukd2ZQECzgUCyiz1zPrGKhcHhBEwPH%2FrTCSWicz8ib8MeZqY1RwZsLc4ORXx4Aa68zPyQ%2BKKS4EWiTLuJePKjcgKytmPUCALRXi7mpMjcwP%2Fx1BTwWBd0XjlkKNg2PhPn6caLYoCb8mtfUciD5pRdWeQqxWGtD6jPb0NBQMPEuxePxjsR8MpSTg%3D&updatedPosition=1"
+                  ],
+                  "viewUrls": [
+                    "/g/aps/public/api/v1/pixel/view?encryptedData=AXQUKDtWnbQg4IAWHNSbPCdpS68b2lupz%2FOdRs37m2mp%2Fmp0AVhtQO4pPCaRN8CLL29kmLO3CS%2BX5iCWTuvqv85u3S3Tk5XVizbCdZ0FrIqqYV7%2FjraYSOJdcp9f%2BFlu4DtXxBgJFSj6qDeyuE8WC1jhUJfk77DG5lzc7bJxN24OOOKcRh2w%2B7OdbVVwAb0PRbZ%2FSBeyci9%2Bt7uJi%2BooUqm6jSdGvFfZMh30Y1H2gdAbJt9U6MJmyQZcAx96BBJ2qgl%2FRr6NNDWkRCdT6Cv6ggaClaS%2FM0RzWXx1pyktMrWyCxL2kD%2BpQKOV%2B4xg56m4R7nT&updatedPosition=1"
+                  ]
+                }
+              }
+            ],
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "12712-2408220930--32593-1-12240-2408221903|12240-2408251545--32249-0-12712-2408260725",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T19:03:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32593,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                      "name": "Alaska Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T09:30:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 933,
+                "id": "12712-2408220930--32593-1-12240-2408221903",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T12:37:00",
+                    "departure": "2024-08-22T09:30:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "SEA",
+                      "flightPlaceId": "SEA",
+                      "name": "Seattle / Tacoma International",
+                      "parent": {
+                        "displayCode": "SEA",
+                        "flightPlaceId": "SEAA",
+                        "name": "Seattle",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 367,
+                    "flightNumber": "21",
+                    "id": "12712-16177-2408220930-2408221237--32593",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-22T19:03:00",
+                    "departure": "2024-08-22T15:59:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 364,
+                    "flightNumber": "853",
+                    "id": "16177-12240-2408221559-2408221903--32593",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "SEA",
+                      "flightPlaceId": "SEA",
+                      "name": "Seattle / Tacoma International",
+                      "parent": {
+                        "displayCode": "SEA",
+                        "flightPlaceId": "SEAA",
+                        "name": "Seattle",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:25:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T15:45:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "durationInMinutes": 580,
+                "id": "12240-2408251545--32249-0-12712-2408260725",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-26T07:25:00",
+                    "departure": "2024-08-25T15:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 580,
+                    "flightNumber": "50",
+                    "id": "12240-12712-2408251545-2408260725--32249",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$1,181",
+              "pricingOptionId": "gnZcCKugIMFA",
+              "raw": 1180.41
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "wfus"
+                ],
+                "fareAttributes": {},
+                "items": [
+                  {
+                    "agentId": "wfus",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1180.41
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1180.41
+                },
+                "pricingOptionId": "gnZcCKugIMFA"
+              }
+            ],
+            "score": 0.915945
+          },
+          {
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "13522-2408220730--31722-1-12240-2408221344|12240-2408251320--31722-1-11442-2408260724",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T13:44:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T07:30:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 734,
+                "id": "13522-2408220730--31722-1-12240-2408221344",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "LGA",
+                  "entityId": "95565057",
+                  "id": "LGA",
+                  "isHighlighted": true,
+                  "name": "New York LaGuardia"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T09:06:00",
+                    "departure": "2024-08-22T07:30:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "ORD",
+                      "flightPlaceId": "ORD",
+                      "name": "Chicago O'Hare International",
+                      "parent": {
+                        "displayCode": "CHI",
+                        "flightPlaceId": "CHIA",
+                        "name": "Chicago",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 156,
+                    "flightNumber": "224",
+                    "id": "13522-15062-2408220730-2408220906--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LGA",
+                      "flightPlaceId": "LGA",
+                      "name": "New York LaGuardia",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-22T13:44:00",
+                    "departure": "2024-08-22T09:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 539,
+                    "flightNumber": "219",
+                    "id": "15062-12240-2408220945-2408221344--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "ORD",
+                      "flightPlaceId": "ORD",
+                      "name": "Chicago O'Hare International",
+                      "parent": {
+                        "displayCode": "CHI",
+                        "flightPlaceId": "CHIA",
+                        "name": "Chicago",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:24:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T13:20:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "EWR",
+                  "entityId": "95565059",
+                  "id": "EWR",
+                  "isHighlighted": true,
+                  "name": "New York Newark"
+                },
+                "durationInMinutes": 724,
+                "id": "12240-2408251320--31722-1-11442-2408260724",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-25T21:48:00",
+                    "departure": "2024-08-25T13:20:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 328,
+                    "flightNumber": "1157",
+                    "id": "12240-13416-2408251320-2408252148--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-26T07:24:00",
+                    "departure": "2024-08-25T23:15:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "EWR",
+                      "flightPlaceId": "EWR",
+                      "name": "New York Newark",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 309,
+                    "flightNumber": "2241",
+                    "id": "13416-11442-2408252315-2408260724--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$669",
+              "pricingOptionId": "ZlNfXpzcK1YU",
+              "raw": 668.4
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "uair"
+                ],
+                "items": [
+                  {
+                    "agentId": "uair",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 668.4
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 668.4
+                },
+                "pricingOptionId": "ZlNfXpzcK1YU"
+              }
+            ],
+            "score": 0.99989134,
+            "tags": [
+              "cheapest"
+            ]
+          },
+          {
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "13522-2408220645--31722-1-12240-2408221344|12240-2408251320--31722-1-11442-2408260724",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T13:44:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T06:45:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 779,
+                "id": "13522-2408220645--31722-1-12240-2408221344",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "LGA",
+                  "entityId": "95565057",
+                  "id": "LGA",
+                  "isHighlighted": true,
+                  "name": "New York LaGuardia"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T08:20:00",
+                    "departure": "2024-08-22T06:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "ORD",
+                      "flightPlaceId": "ORD",
+                      "name": "Chicago O'Hare International",
+                      "parent": {
+                        "displayCode": "CHI",
+                        "flightPlaceId": "CHIA",
+                        "name": "Chicago",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 155,
+                    "flightNumber": "2389",
+                    "id": "13522-15062-2408220645-2408220820--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LGA",
+                      "flightPlaceId": "LGA",
+                      "name": "New York LaGuardia",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-22T13:44:00",
+                    "departure": "2024-08-22T09:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 539,
+                    "flightNumber": "219",
+                    "id": "15062-12240-2408220945-2408221344--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "ORD",
+                      "flightPlaceId": "ORD",
+                      "name": "Chicago O'Hare International",
+                      "parent": {
+                        "displayCode": "CHI",
+                        "flightPlaceId": "CHIA",
+                        "name": "Chicago",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:24:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T13:20:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "EWR",
+                  "entityId": "95565059",
+                  "id": "EWR",
+                  "isHighlighted": true,
+                  "name": "New York Newark"
+                },
+                "durationInMinutes": 724,
+                "id": "12240-2408251320--31722-1-11442-2408260724",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-25T21:48:00",
+                    "departure": "2024-08-25T13:20:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 328,
+                    "flightNumber": "1157",
+                    "id": "12240-13416-2408251320-2408252148--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-26T07:24:00",
+                    "departure": "2024-08-25T23:15:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "EWR",
+                      "flightPlaceId": "EWR",
+                      "name": "New York Newark",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 309,
+                    "flightNumber": "2241",
+                    "id": "13416-11442-2408252315-2408260724--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$669",
+              "pricingOptionId": "vfvKwJsOJV1y",
+              "raw": 668.4
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "uair"
+                ],
+                "items": [
+                  {
+                    "agentId": "uair",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 668.4
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 668.4
+                },
+                "pricingOptionId": "vfvKwJsOJV1y"
+              }
+            ],
+            "score": 0.9998705,
+            "tags": [
+              "second_cheapest"
+            ]
+          },
+          {
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "13522-2408220600--31722-1-12240-2408221321|12240-2408251320--31722-1-11442-2408260724",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T13:21:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T06:00:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 801,
+                "id": "13522-2408220600--31722-1-12240-2408221321",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "LGA",
+                  "entityId": "95565057",
+                  "id": "LGA",
+                  "isHighlighted": true,
+                  "name": "New York LaGuardia"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T08:50:00",
+                    "departure": "2024-08-22T06:00:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "IAH",
+                      "flightPlaceId": "IAH",
+                      "name": "Houston George Bush Intercntl.",
+                      "parent": {
+                        "displayCode": "HOU",
+                        "flightPlaceId": "HOUA",
+                        "name": "Houston",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 230,
+                    "flightNumber": "2355",
+                    "id": "13522-12389-2408220600-2408220850--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LGA",
+                      "flightPlaceId": "LGA",
+                      "name": "New York LaGuardia",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-22T13:21:00",
+                    "departure": "2024-08-22T10:05:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 496,
+                    "flightNumber": "253",
+                    "id": "12389-12240-2408221005-2408221321--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "IAH",
+                      "flightPlaceId": "IAH",
+                      "name": "Houston George Bush Intercntl.",
+                      "parent": {
+                        "displayCode": "HOU",
+                        "flightPlaceId": "HOUA",
+                        "name": "Houston",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:24:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T13:20:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "EWR",
+                  "entityId": "95565059",
+                  "id": "EWR",
+                  "isHighlighted": true,
+                  "name": "New York Newark"
+                },
+                "durationInMinutes": 724,
+                "id": "12240-2408251320--31722-1-11442-2408260724",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-25T21:48:00",
+                    "departure": "2024-08-25T13:20:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 328,
+                    "flightNumber": "1157",
+                    "id": "12240-13416-2408251320-2408252148--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-26T07:24:00",
+                    "departure": "2024-08-25T23:15:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "EWR",
+                      "flightPlaceId": "EWR",
+                      "name": "New York Newark",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 309,
+                    "flightNumber": "2241",
+                    "id": "13416-11442-2408252315-2408260724--31722",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "UA",
+                      "displayCode": "",
+                      "id": -31722,
+                      "name": "United"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "LAX",
+                      "flightPlaceId": "LAX",
+                      "name": "Los Angeles International",
+                      "parent": {
+                        "displayCode": "LAX",
+                        "flightPlaceId": "LAXA",
+                        "name": "Los Angeles",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$669",
+              "pricingOptionId": "aWS1ZUwuNYn3",
+              "raw": 668.4
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "uair"
+                ],
+                "items": [
+                  {
+                    "agentId": "uair",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 668.4
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 668.4
+                },
+                "pricingOptionId": "aWS1ZUwuNYn3"
+              }
+            ],
+            "score": 0.99986035,
+            "tags": [
+              "third_cheapest"
+            ]
+          }
+        ],
+        "name": "Cheapest"
+      },
+      {
+        "id": "Fastest",
+        "items": [
+          {
+            "adInfos": [
+              {
+                "appIndexList": [
+                  0
+                ],
+                "backgroundColor": "#d9fdfe",
+                "creativeId": "CAM-1398cb4b-56f4-474c-a124-34ec079fc533",
+                "format": "flightsItineraryInlinePlus",
+                "formatId": "fmt.flightsItineraryInlinePlus",
+                "headline": " Fly to Honolulu for less with Wizfair deals!",
+                "index": 0,
+                "isOrganic": false,
+                "partner": "wfus",
+                "partnerId": "wfus",
+                "partnerLogoUrl": "https://s3-eu-west-1.amazonaws.com/sponsored-portal-uploads-prod/content%2F3906409564c35ec4823ee07c6b3ad092.png",
+                "partnerName": "Wizfair",
+                "partnerType": "ota",
+                "placementId": "android.flights.combinedresults/inline",
+                "price": {
+                  "formatted": "$1,181",
+                  "pricingOptionId": "gnZcCKugIMFA",
+                  "raw": 1180.41
+                },
+                "redirectUrl": "https://skyscanner.net/transport_deeplink/4.0/US/en-US/USD/wfus/2/12712.12240.2024-08-22,12240.12712.2024-08-25/air/trava/inlineads?itinerary=flight%7C-32593%7C21%7C12712%7C2024-08-22T09%3A30%7C16177%7C2024-08-22T12%3A37%7C367%7C-%7C-%7C-%3Bflight%7C-32593%7C853%7C16177%7C2024-08-22T15%3A59%7C12240%7C2024-08-22T19%3A03%7C364%7C-%7C-%7C-%2Cflight%7C-32249%7C50%7C12240%7C2024-08-25T15%3A45%7C12712%7C2024-08-26T07%3A25%7C580%7C-%7C-%7C-&carriers=-32593%2C-32249&operators=-32593%3B-32593%2C-32249&passengers=1&channel=android&cabin_class=economy&fps_session_id=79597f2f-158e-4e67-ace1-e9208b5f899f&ticket_price=1180.41&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=b36f6bfb-4feb-4373-82fc-8fdabd3e4d00&q_ids=H4sIAAAAAAAA_-NS4GIpTystFmLm6NGVYua4EK_Q8H_mNjaNhhcrt7EZMSkwAgD78FizIgAAAA%7C-5311097768089270245%7C2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-08-21T07%3A29%3A50&pqid=false&facilitated=false&requested_depth=DAY_VIEW&creative_id=CAM-1398cb4b-56f4-474c-a124-34ec079fc533_*%2F*%2F*%2F*%2F*%2F*&redirect_delay=0",
+                "sponsoredText": "Sponsored",
+                "textColor": "#000000",
+                "trackingId": "2d397774-5ea0-429f-8cb6-1d652502e7db",
+                "trackingPixels": {
+                  "clickUrls": [
+                    "/g/aps/public/api/v1/pixel/click?encryptedData=AdLjTr6cd2G02tBufWgFUpCUEGxxX0X20ezArEf0UXznW2Wa4f8cYfAWMxQWObBPnQBTIZfSMGfiJqQ%2FzeRkwdUzdsB9rfiMcLoZVFZnNCbwWir4xcfwwZpWgzRQWw8%2FRNave4%2BZ9b6hGQOMhT68HlkhynYZ71xt8UkfidxpTf%2FvNMX%2BvQWOHOWkq5QCIeahsdr9mNvDzomBEWwCivkeY1o1CA1V0hHKTAq%2BMG%2B4nmcBG3erdSMkTiaGUcS1RrYnh3g3erB9RbjblgrNIRhw3YMTqTDNky3nL8iy7OXWCOvh7ft0Qvivp5WGnaSoxr4xOWkB4RgnlSrRcLM0ZalfTUVgcauN2liHJ3RwD5r4M1U0xC%2BXNHcnb9rbiCoTgfnIXyqxbbVOSPVUHNv3mN388dH4lC70psy07Fs4Hfukp79ra58nmKzsHqEW856XPkMlFNZ%2BAOXePpdaA6OI5YZ3tCeYYce6XH5rIkxxQOZIq2%2BEdvOn9Z%2FJj93q53PFQ80Ng6N5oqMlAlFdOfJyt1ciwwO0gez3QJ5YZ3osnYxazU9z3SspyU5J8ny1WRZv%2FUpx50ZhsQ%3D%3D&updatedPosition=1"
+                  ],
+                  "engageUrls": [
+                    "/g/aps/public/api/v1/pixel/engage?encryptedData=AYuYgz4rKmmr0%2FRYaQodRB9i07Hjp5AuRN0%2BTn7XC5dKwpD%2FbOUSgLXWtEhgyn3ul6XtUIQrPl1pLUPMfg9%2B7q%2ByeeI5kUdi7fr%2FZuITfhybHjKDHPRvJiAdfWFwwqrKlz7yCFHvDPz5hMAJyD3bLQlIJRVttgPgx8oYSl15NtE%2FzYPvoTKJVxdzWbJNWtAUHobYr%2BG2RdMOmom%2FkB0XSkzx5DsZXDgdGaX4UFEhg3laxL9%2FFndYdiYh9vBXibTuUK3QlCrsi0h%2ByQWeWmGPQOY%2FjX%2BrIMFmbuYOcUC8z%2B0FbJZMPZ%2F%2Bb%2BnMPDys91gV7ANh&updatedPosition=1"
+                  ],
+                  "impressionUrls": [
+                    "/g/aps/public/api/v1/pixel/impression?encryptedData=AYxAmp0atHjVesWwdwurIgsoNLt7IuNMr2BGl7Vks%2BQZoGCtQxeg%2B6NKhF%2B5Bqo367In6jcFJ6WTk1piySX3AiDzoi%2BEAt7%2Bz8oB4RnQ6nlkxf3GxibmLTwO%2FqlUPsINVVklsAvRknbCmyp4WDW9gzaLrI7zUhTHN8ID7WythWGjg5nw9nNg%2BDf0yvwIioXDCpe7KlxKfpYhX6tCfzScxL8Suk321lCk3uDItQ1x1uZjjtdWOuOb5FjiWXNeCct8WEsjVvK3jz3Z0KnsH%2BrtWj1nwWWgCnKHsJsW4P1Nw7tWXF9CT5JTks9fZKpYSPzGWbHY0jhXhsa6Rd1eIiKR18lGLMevukd2ZQECzgUCyiz1zPrGKhcHhBEwPH%2FrTCSWicz8ib8MeZqY1RwZsLc4ORXx4Aa68zPyQ%2BKKS4EWiTLuJePKjcgKytmPUCALRXi7mpMjcwP%2Fx1BTwWBd0XjlkKNg2PhPn6caLYoCb8mtfUciD5pRdWeQqxWGtD6jPb0NBQMPEuxePxjsR8MpSTg%3D&updatedPosition=1"
+                  ],
+                  "viewUrls": [
+                    "/g/aps/public/api/v1/pixel/view?encryptedData=AXQUKDtWnbQg4IAWHNSbPCdpS68b2lupz%2FOdRs37m2mp%2Fmp0AVhtQO4pPCaRN8CLL29kmLO3CS%2BX5iCWTuvqv85u3S3Tk5XVizbCdZ0FrIqqYV7%2FjraYSOJdcp9f%2BFlu4DtXxBgJFSj6qDeyuE8WC1jhUJfk77DG5lzc7bJxN24OOOKcRh2w%2B7OdbVVwAb0PRbZ%2FSBeyci9%2Bt7uJi%2BooUqm6jSdGvFfZMh30Y1H2gdAbJt9U6MJmyQZcAx96BBJ2qgl%2FRr6NNDWkRCdT6Cv6ggaClaS%2FM0RzWXx1pyktMrWyCxL2kD%2BpQKOV%2B4xg56m4R7nT&updatedPosition=1"
+                  ]
+                }
+              }
+            ],
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "12712-2408220930--32593-1-12240-2408221903|12240-2408251545--32249-0-12712-2408260725",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T19:03:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32593,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                      "name": "Alaska Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T09:30:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 933,
+                "id": "12712-2408220930--32593-1-12240-2408221903",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T12:37:00",
+                    "departure": "2024-08-22T09:30:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "SEA",
+                      "flightPlaceId": "SEA",
+                      "name": "Seattle / Tacoma International",
+                      "parent": {
+                        "displayCode": "SEA",
+                        "flightPlaceId": "SEAA",
+                        "name": "Seattle",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 367,
+                    "flightNumber": "21",
+                    "id": "12712-16177-2408220930-2408221237--32593",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  },
+                  {
+                    "arrival": "2024-08-22T19:03:00",
+                    "departure": "2024-08-22T15:59:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 364,
+                    "flightNumber": "853",
+                    "id": "16177-12240-2408221559-2408221903--32593",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "AS",
+                      "displayCode": "",
+                      "id": -32593,
+                      "name": "Alaska Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "SEA",
+                      "flightPlaceId": "SEA",
+                      "name": "Seattle / Tacoma International",
+                      "parent": {
+                        "displayCode": "SEA",
+                        "flightPlaceId": "SEAA",
+                        "name": "Seattle",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 1,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:25:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T15:45:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "durationInMinutes": 580,
+                "id": "12240-2408251545--32249-0-12712-2408260725",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-26T07:25:00",
+                    "departure": "2024-08-25T15:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 580,
+                    "flightNumber": "50",
+                    "id": "12240-12712-2408251545-2408260725--32249",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$1,181",
+              "pricingOptionId": "gnZcCKugIMFA",
+              "raw": 1180.41
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "wfus"
+                ],
+                "fareAttributes": {},
+                "items": [
+                  {
+                    "agentId": "wfus",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1180.41
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1180.41
+                },
+                "pricingOptionId": "gnZcCKugIMFA"
+              }
+            ],
+            "score": 0.865915
+          },
+          {
+            "eco": {
+              "ecoContenderDelta": 13.703859
+            },
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "12712-2408221030--32385-0-12240-2408221508|12240-2408251715--32385-0-12712-2408260900",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T15:08:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32385,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/DL.png",
+                      "name": "Delta"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T10:30:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 638,
+                "id": "12712-2408221030--32385-0-12240-2408221508",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T15:08:00",
+                    "departure": "2024-08-22T10:30:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 638,
+                    "flightNumber": "268",
+                    "id": "12712-12240-2408221030-2408221508--32385",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "DL",
+                      "displayCode": "",
+                      "id": -32385,
+                      "name": "Delta"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "DL",
+                      "displayCode": "",
+                      "id": -32385,
+                      "name": "Delta"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T09:00:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32385,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/DL.png",
+                      "name": "Delta"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T17:15:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "durationInMinutes": 585,
+                "id": "12240-2408251715--32385-0-12712-2408260900",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-26T09:00:00",
+                    "departure": "2024-08-25T17:15:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 585,
+                    "flightNumber": "190",
+                    "id": "12240-12712-2408251715-2408260900--32385",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "DL",
+                      "displayCode": "",
+                      "id": -32385,
+                      "name": "Delta"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "DL",
+                      "displayCode": "",
+                      "id": -32385,
+                      "name": "Delta"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$1,220",
+              "pricingOptionId": "dATiU5i7cEa0",
+              "raw": 1219.39
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "dela"
+                ],
+                "items": [
+                  {
+                    "agentId": "dela",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1219.39
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1219.39
+                },
+                "pricingOptionId": "dATiU5i7cEa0"
+              }
+            ],
+            "score": 0.99990964,
+            "tags": [
+              "shortest"
+            ]
+          },
+          {
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "12712-2408221000--32249-0-12240-2408221455|12240-2408251545--32249-0-12712-2408260725",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T14:55:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T10:00:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 655,
+                "id": "12712-2408221000--32249-0-12240-2408221455",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T14:55:00",
+                    "departure": "2024-08-22T10:00:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 655,
+                    "flightNumber": "51",
+                    "id": "12712-12240-2408221000-2408221455--32249",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:25:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T15:45:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "durationInMinutes": 580,
+                "id": "12240-2408251545--32249-0-12712-2408260725",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-26T07:25:00",
+                    "departure": "2024-08-25T15:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 580,
+                    "flightNumber": "50",
+                    "id": "12240-12712-2408251545-2408260725--32249",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$1,233",
+              "pricingOptionId": "nUkNx2Gofg2I",
+              "raw": 1232.4
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "hawa"
+                ],
+                "items": [
+                  {
+                    "agentId": "hawa",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1232.4
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1232.4
+                },
+                "pricingOptionId": "nUkNx2Gofg2I"
+              },
+              {
+                "agentIds": [
+                  "byus"
+                ],
+                "items": [
+                  {
+                    "agentId": "byus",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1292.52
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1292.52
+                },
+                "pricingOptionId": "7Oj7KH1RF8by"
+              }
+            ],
+            "score": 0.99436265,
+            "tags": [
+              "second_shortest"
+            ]
+          },
+          {
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "12712-2408221000--32171-0-12240-2408221455|12240-2408251545--32171-0-12712-2408260725",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T14:55:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32171,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/B6.png",
+                      "name": "jetBlue"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "departure": "2024-08-22T10:00:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 655,
+                "id": "12712-2408221000--32171-0-12240-2408221455",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T14:55:00",
+                    "departure": "2024-08-22T10:00:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 655,
+                    "flightNumber": "5851",
+                    "id": "12712-12240-2408221000-2408221455--32171",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "B6",
+                      "displayCode": "",
+                      "id": -32171,
+                      "name": "jetBlue"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:25:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32171,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/B6.png",
+                      "name": "jetBlue"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "departure": "2024-08-25T15:45:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "durationInMinutes": 580,
+                "id": "12240-2408251545--32171-0-12712-2408260725",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-26T07:25:00",
+                    "departure": "2024-08-25T15:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 580,
+                    "flightNumber": "5850",
+                    "id": "12240-12712-2408251545-2408260725--32171",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "B6",
+                      "displayCode": "",
+                      "id": -32171,
+                      "name": "jetBlue"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$1,279",
+              "pricingOptionId": "aY0_TnB-TrS9",
+              "raw": 1278.54
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "xpus"
+                ],
+                "items": [
+                  {
+                    "agentId": "xpus",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1278.54
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1278.54
+                },
+                "pricingOptionId": "aY0_TnB-TrS9"
+              },
+              {
+                "agentIds": [
+                  "tlcy"
+                ],
+                "items": [
+                  {
+                    "agentId": "tlcy",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1278.54
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1278.54
+                },
+                "pricingOptionId": "JzR6ri-P41ua"
+              },
+              {
+                "agentIds": [
+                  "orbz"
+                ],
+                "items": [
+                  {
+                    "agentId": "orbz",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1278.54
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1278.54
+                },
+                "pricingOptionId": "48PI48tZRS_6"
+              }
+            ],
+            "score": 0.9943551,
+            "tags": [
+              "third_shortest"
+            ]
+          }
+        ],
+        "name": "Fastest"
+      },
+      {
+        "id": "Direct",
+        "items": [
+          {
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "12712-2408221000--32249-0-12240-2408221455|12240-2408251545--32249-0-12712-2408260725",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T14:55:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T10:00:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 655,
+                "id": "12712-2408221000--32249-0-12240-2408221455",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T14:55:00",
+                    "departure": "2024-08-22T10:00:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 655,
+                    "flightNumber": "51",
+                    "id": "12712-12240-2408221000-2408221455--32249",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:25:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T15:45:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "durationInMinutes": 580,
+                "id": "12240-2408251545--32249-0-12712-2408260725",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-26T07:25:00",
+                    "departure": "2024-08-25T15:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 580,
+                    "flightNumber": "50",
+                    "id": "12240-12712-2408251545-2408260725--32249",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$1,233",
+              "pricingOptionId": "nUkNx2Gofg2I",
+              "raw": 1232.4
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "hawa"
+                ],
+                "items": [
+                  {
+                    "agentId": "hawa",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1232.4
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1232.4
+                },
+                "pricingOptionId": "nUkNx2Gofg2I"
+              },
+              {
+                "agentIds": [
+                  "byus"
+                ],
+                "items": [
+                  {
+                    "agentId": "byus",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1292.52
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1292.52
+                },
+                "pricingOptionId": "7Oj7KH1RF8by"
+              }
+            ],
+            "score": 0.692201,
+            "tags": [
+              "second_shortest"
+            ]
+          },
+          {
+            "eco": {
+              "ecoContenderDelta": 13.703859
+            },
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "12712-2408221030--32385-0-12240-2408221508|12240-2408251715--32385-0-12712-2408260900",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T15:08:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32385,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/DL.png",
+                      "name": "Delta"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-22T10:30:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 638,
+                "id": "12712-2408221030--32385-0-12240-2408221508",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T15:08:00",
+                    "departure": "2024-08-22T10:30:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 638,
+                    "flightNumber": "268",
+                    "id": "12712-12240-2408221030-2408221508--32385",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "DL",
+                      "displayCode": "",
+                      "id": -32385,
+                      "name": "Delta"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "DL",
+                      "displayCode": "",
+                      "id": -32385,
+                      "name": "Delta"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T09:00:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32385,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/DL.png",
+                      "name": "Delta"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "departure": "2024-08-25T17:15:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "durationInMinutes": 585,
+                "id": "12240-2408251715--32385-0-12712-2408260900",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-26T09:00:00",
+                    "departure": "2024-08-25T17:15:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 585,
+                    "flightNumber": "190",
+                    "id": "12240-12712-2408251715-2408260900--32385",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "DL",
+                      "displayCode": "",
+                      "id": -32385,
+                      "name": "Delta"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "DL",
+                      "displayCode": "",
+                      "id": -32385,
+                      "name": "Delta"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$1,220",
+              "pricingOptionId": "dATiU5i7cEa0",
+              "raw": 1219.39
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "dela"
+                ],
+                "items": [
+                  {
+                    "agentId": "dela",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1219.39
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1219.39
+                },
+                "pricingOptionId": "dATiU5i7cEa0"
+              }
+            ],
+            "score": 0.681583,
+            "tags": [
+              "shortest"
+            ]
+          },
+          {
+            "fareAttributes": {},
+            "farePolicy": {
+              "isCancellationAllowed": false,
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isPartiallyRefundable": false
+            },
+            "hasFlexibleOptions": false,
+            "id": "12712-2408221000--32171-0-12240-2408221455|12240-2408251545--32171-0-12712-2408260725",
+            "isMashUp": false,
+            "isProtectedSelfTransfer": false,
+            "isSelfTransfer": false,
+            "legs": [
+              {
+                "arrival": "2024-08-22T14:55:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32171,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/B6.png",
+                      "name": "jetBlue"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "departure": "2024-08-22T10:00:00",
+                "destination": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "durationInMinutes": 655,
+                "id": "12712-2408221000--32171-0-12240-2408221455",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-22T14:55:00",
+                    "departure": "2024-08-22T10:00:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 655,
+                    "flightNumber": "5851",
+                    "id": "12712-12240-2408221000-2408221455--32171",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "B6",
+                      "displayCode": "",
+                      "id": -32171,
+                      "name": "jetBlue"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 0
+              },
+              {
+                "arrival": "2024-08-26T07:25:00",
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32171,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/B6.png",
+                      "name": "jetBlue"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -32249,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HA.png",
+                      "name": "Hawaiian Airlines"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "departure": "2024-08-25T15:45:00",
+                "destination": {
+                  "city": "New York",
+                  "country": "United States",
+                  "displayCode": "JFK",
+                  "entityId": "95565058",
+                  "id": "JFK",
+                  "isHighlighted": false,
+                  "name": "New York John F. Kennedy"
+                },
+                "durationInMinutes": 580,
+                "id": "12240-2408251545--32171-0-12712-2408260725",
+                "isSmallestStops": false,
+                "origin": {
+                  "city": "Honolulu",
+                  "country": "United States",
+                  "displayCode": "HNL",
+                  "entityId": "95673827",
+                  "id": "HNL",
+                  "isHighlighted": false,
+                  "name": "Honolulu International"
+                },
+                "segments": [
+                  {
+                    "arrival": "2024-08-26T07:25:00",
+                    "departure": "2024-08-25T15:45:00",
+                    "destination": {
+                      "country": "United States",
+                      "displayCode": "JFK",
+                      "flightPlaceId": "JFK",
+                      "name": "New York John F. Kennedy",
+                      "parent": {
+                        "displayCode": "NYC",
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    },
+                    "durationInMinutes": 580,
+                    "flightNumber": "5850",
+                    "id": "12240-12712-2408251545-2408260725--32171",
+                    "marketingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "B6",
+                      "displayCode": "",
+                      "id": -32171,
+                      "name": "jetBlue"
+                    },
+                    "operatingCarrier": {
+                      "allianceId": 0,
+                      "alternateId": "HA",
+                      "displayCode": "",
+                      "id": -32249,
+                      "name": "Hawaiian Airlines"
+                    },
+                    "origin": {
+                      "country": "United States",
+                      "displayCode": "HNL",
+                      "flightPlaceId": "HNL",
+                      "name": "Honolulu International",
+                      "parent": {
+                        "displayCode": "HNL",
+                        "flightPlaceId": "HNLA",
+                        "name": "Honolulu",
+                        "type": "City"
+                      },
+                      "type": "Airport"
+                    }
+                  }
+                ],
+                "stopCount": 0,
+                "timeDeltaInDays": 1
+              }
+            ],
+            "price": {
+              "formatted": "$1,279",
+              "pricingOptionId": "aY0_TnB-TrS9",
+              "raw": 1278.54
+            },
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "xpus"
+                ],
+                "items": [
+                  {
+                    "agentId": "xpus",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1278.54
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1278.54
+                },
+                "pricingOptionId": "aY0_TnB-TrS9"
+              },
+              {
+                "agentIds": [
+                  "tlcy"
+                ],
+                "items": [
+                  {
+                    "agentId": "tlcy",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1278.54
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1278.54
+                },
+                "pricingOptionId": "JzR6ri-P41ua"
+              },
+              {
+                "agentIds": [
+                  "orbz"
+                ],
+                "items": [
+                  {
+                    "agentId": "orbz",
+                    "bookingProposition": "PBOOK",
+                    "price": {
+                      "amount": 1278.54
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": 1278.54
+                },
+                "pricingOptionId": "48PI48tZRS_6"
+              }
+            ],
+            "score": 0.516825,
+            "tags": [
+              "third_shortest"
+            ]
+          }
+        ],
+        "name": "Direct"
+      }
+    ],
+    "context": {
+      "sessionId": "79597f2f-158e-4e67-ace1-e9208b5f899f",
+      "status": "complete",
+      "totalResults": 794
+    },
+    "creatives": null,
+    "destinationImageUrl": "https://content.skyscnr.com/m/3719e8f4a5daf43d/original/Flights-Placeholder.jpg",
+    "filterStats": null,
+    "results": []
+  },
+  "packages": {
+    "buckets": null,
+    "context": {
+      "sessionId": "79597f2f-158e-4e67-ace1-e9208b5f899f",
+      "status": "complete",
+      "totalResults": 0
+    },
+    "results": []
+  }
+}
