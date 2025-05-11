@@ -76,8 +76,7 @@ export class FlightService {
 
   private _transformResults(items: ItineraryItem[]) {
     return items.map((item) => {
-      const outbound = item.legs[0];
-      const inbound = item.legs[1];
+      const [outbound, inbound] = item.legs;
       const carrier = outbound.carriers.marketing[0];
 
       return {
