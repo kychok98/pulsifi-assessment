@@ -1,0 +1,24 @@
+@startuml
+actor User
+participant "NestJS API" as API
+participant "FlightService" as Service
+participant "RapidAPI\n(Skyscanner89)" as RapidAPI
+
+User -> API : GET /search-flight\nwith api-key
+API -> Service : searchFlights(dto)
+
+alt Using RapidAPI
+    Service -> RapidAPI : GET /flights/roundtrip/list\nwith headers + rapidapi-key
+    RapidAPI --> Service : raw flight JSON response
+else Using Mock (USE_FLIGHT_MOCK = true)
+    Service -> Service : Read mock JSON file
+end
+
+Service -> Service : Deduplicate itineraries
+Service -> Service : Filter by inDate, outDate, from, to
+Service -> Service : Sort flights by price (asc)
+Service -> Service : Transform output format
+
+Service --> API : Simplified flight list (JSON)
+API --> User : 200 OK\n[cheapest → most expensive]
+@enduml
