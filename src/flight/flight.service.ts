@@ -1,4 +1,5 @@
 import { Injectable, Logger } from '@nestjs/common';
+import { safeDate } from '../utils/date';
 import { SearchFlightDto } from './dto/search-flight.dto';
 import {
   ItineraryBucket,
@@ -42,8 +43,6 @@ export class FlightService {
     const errors: string[] = [];
 
     const [outbound, inbound] = item.legs;
-
-    const safeDate = (d: string) => d?.substring(0, 10);
 
     if (safeDate(outbound.departure) !== dto.inDate) {
       errors.push(
