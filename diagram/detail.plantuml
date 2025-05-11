@@ -1,0 +1,29 @@
+@startuml
+actor User
+participant "Middleware\n(API Key Logger)" as Middleware
+participant "Guard\n(Auth + API Key)" as Guard
+participant "Pipe\n(ValidationPipe)" as Pipe
+participant "Controller\n(search-flight)" as Controller
+participant "Service\nFlightService" as Service
+participant "RapidAPI\n(Skyscanner89)" as RapidAPI
+
+User -> Middleware : HTTP GET /search-flight\n+ x-api-key
+Middleware -> Guard : Check API Key + Auth
+Guard -> Pipe : Validate query params
+Pipe -> Controller : Pass validated DTO
+
+Controller -> Service : searchFlights(dto)
+
+alt USE_FLIGHT_MOCK = false
+    Service -> RapidAPI : GET /flights/roundtrip/list\n+ headers (api key, host)
+    RapidAPI --> Service : Raw Skyscanner JSON
+else
+    Service -> Service : Read mock JSON file
+end
+
+Service -> Service : Filter by inDate/outDate/from/to
+Service -> Service : Deduplicate + sort + 10% discount
+Service -> Controller : Transformed flight result (RoundtripFlightDto[])
+
+Controller -> User : 200 OK (JSON)\n[cheapest → most expensive]
+@enduml
