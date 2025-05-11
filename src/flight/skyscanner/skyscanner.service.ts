@@ -1,5 +1,11 @@
 import { HttpService } from '@nestjs/axios';
-import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
+import {
+  BadGatewayException,
+  HttpException,
+  HttpStatus,
+  Injectable,
+  Logger,
+} from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -8,6 +14,8 @@ import { FlightResponse } from '../interfaces/flight-response.interface';
 
 @Injectable()
 export class SkyscannerService {
+  private readonly logger = new Logger(SkyscannerService.name);
+
   private mockPath = path.resolve(
     __dirname,
     '../../../src/mocks/complete-response.json',
@@ -38,9 +46,13 @@ export class SkyscannerService {
           },
         }),
       );
+      if (response.data?.status === 'error') {
+        throw new BadGatewayException(response.data);
+      }
 
       return response.data;
     } catch (error) {
+      this.logger.debug(error?.response?.data);
       throw new HttpException(
         'Failed to fetch flights from Skyscanner',
         HttpStatus.BAD_GATEWAY,
