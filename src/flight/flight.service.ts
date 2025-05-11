@@ -20,11 +20,15 @@ export class FlightService {
     const matched = items.filter((item) => this._matchesCriteria(item, dto));
     this.logger.log(`Found ${matched.length} matched itineraries`);
 
-    const result = this._transformResults(
+    const transformed = this._transformResults(
       matched.sort((a, b) => a.price.raw - b.price.raw),
     );
-    this.logger.log(result);
-    return result;
+    this.logger.log(transformed);
+
+    return {
+      count: transformed.length,
+      data: transformed,
+    };
   }
 
   private _deduplicate(buckets: ItineraryBucket[]): ItineraryItem[] {

@@ -147,7 +147,7 @@ describe('FlightService', () => {
     expect(service).toBeDefined();
   });
 
-  it('should return matched and transformed flights', async () => {
+  it('should return matched and transformed flights with count', async () => {
     const dto: SearchFlightDto = {
       inDate: '2024-08-22',
       outDate: '2024-08-25',
@@ -156,8 +156,11 @@ describe('FlightService', () => {
     };
 
     const result = await service.searchFlights(dto);
-    expect(result).toHaveLength(2);
-    expect(result[0]).toEqual({
+
+    expect(result.count).toBe(2);
+    expect(result.data).toHaveLength(2);
+
+    expect(result.data[0]).toEqual({
       id: 'mock-1',
       price: '$400',
       carrier: 'Delta',
@@ -170,7 +173,7 @@ describe('FlightService', () => {
     });
   });
 
-  it('should return empty array if no match', async () => {
+  it('should return empty data if no match', async () => {
     const dto: SearchFlightDto = {
       inDate: '2024-08-22',
       outDate: '2024-08-25',
@@ -179,43 +182,43 @@ describe('FlightService', () => {
     };
 
     const result = await service.searchFlights(dto);
-    expect(result).toEqual([]);
+    expect(result).toEqual({ data: [], count: 0 });
   });
 
   it('should filter out if inDate does not match', async () => {
     const dto: SearchFlightDto = {
-      inDate: '2024-08-21', // mismatch
+      inDate: '2024-08-21',
       outDate: '2024-08-25',
       from: 'JFK',
       to: 'HNL',
     };
 
     const result = await service.searchFlights(dto);
-    expect(result).toEqual([]);
+    expect(result).toEqual({ data: [], count: 0 });
   });
 
   it('should filter out if outDate does not match', async () => {
     const dto: SearchFlightDto = {
       inDate: '2024-08-22',
-      outDate: '2024-08-24', // mismatch
+      outDate: '2024-08-24',
       from: 'JFK',
       to: 'HNL',
     };
 
     const result = await service.searchFlights(dto);
-    expect(result).toEqual([]);
+    expect(result).toEqual({ data: [], count: 0 });
   });
 
   it('should filter out if origin does not match', async () => {
     const dto: SearchFlightDto = {
       inDate: '2024-08-22',
       outDate: '2024-08-25',
-      from: 'LAX', // mismatch
+      from: 'LAX',
       to: 'HNL',
     };
 
     const result = await service.searchFlights(dto);
-    expect(result).toEqual([]);
+    expect(result).toEqual({ data: [], count: 0 });
   });
 
   it('should filter out if destination does not match', async () => {
@@ -223,10 +226,10 @@ describe('FlightService', () => {
       inDate: '2024-08-22',
       outDate: '2024-08-25',
       from: 'JFK',
-      to: 'SFO', // mismatch
+      to: 'SFO',
     };
 
     const result = await service.searchFlights(dto);
-    expect(result).toEqual([]);
+    expect(result).toEqual({ data: [], count: 0 });
   });
 });

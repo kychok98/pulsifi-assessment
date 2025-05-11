@@ -7,6 +7,7 @@ import {
 } from '@nestjs/swagger';
 import { ApiKeyGuard } from '../common/guards/api-key.guard';
 import { API_KEY_HEADER, API_VERSION } from '../constants';
+import { SearchFlightResponseDto } from './dto/flight.dto';
 import { SearchFlightDto } from './dto/search-flight.dto';
 import { FlightService } from './flight.service';
 
@@ -21,7 +22,8 @@ export class FlightController {
   @ApiOperation({ summary: 'Search roundtrip flights' })
   @ApiResponse({
     status: 200,
-    description: 'List of sorted flights (cheapest first)',
+    description: 'List of sorted flights with count',
+    type: SearchFlightResponseDto,
   })
   @ApiResponse({
     status: 401,
