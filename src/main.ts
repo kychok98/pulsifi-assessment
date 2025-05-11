@@ -7,6 +7,7 @@ import {
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { HttpErrorFilter } from './common/filters/http-exception.filter';
+import { API_VERSION } from './constants';
 import { setupSwagger } from './swagger';
 
 async function bootstrap() {
@@ -18,8 +19,6 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
     logger: logLevels,
   });
-
-  setupSwagger(app);
 
   app.useGlobalPipes(
     new ValidationPipe({
@@ -40,8 +39,10 @@ async function bootstrap() {
   app.setGlobalPrefix('/api');
   app.enableVersioning({
     type: VersioningType.URI,
-    defaultVersion: '1',
+    defaultVersion: API_VERSION,
   });
+
+  setupSwagger(app);
 
   await app.listen(process.env.PORT ?? 3000);
 }

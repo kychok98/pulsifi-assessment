@@ -5,6 +5,7 @@ import {
   UnauthorizedException,
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
+import { API_KEY_HEADER } from '../../constants';
 
 @Injectable()
 export class ApiKeyGuard implements CanActivate {
@@ -12,7 +13,7 @@ export class ApiKeyGuard implements CanActivate {
 
   canActivate(context: ExecutionContext): boolean {
     const request = context.switchToHttp().getRequest();
-    const apiKeyHeader = request.headers['x-api-key'];
+    const apiKeyHeader = request.headers[API_KEY_HEADER];
 
     const expectedKey = this.configService.get<string>('API_KEY');
     if (!apiKeyHeader || apiKeyHeader !== expectedKey) {

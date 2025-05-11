@@ -6,12 +6,13 @@ import {
   ApiTags,
 } from '@nestjs/swagger';
 import { ApiKeyGuard } from '../common/guards/api-key.guard';
+import { API_KEY_HEADER, API_VERSION } from '../constants';
 import { SearchFlightDto } from './dto/search-flight.dto';
 import { FlightService } from './flight.service';
 
 @ApiTags('Flights')
-@ApiSecurity('x-api-key')
-@Controller({ version: '1', path: '/search-flight' })
+@ApiSecurity(API_KEY_HEADER)
+@Controller({ version: API_VERSION, path: '/search-flight' })
 export class FlightController {
   constructor(private readonly flightService: FlightService) {}
 
