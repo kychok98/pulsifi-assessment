@@ -22,7 +22,7 @@ export class FlightService {
     const result = this._transformResults(
       matched.sort((a, b) => a.price.raw - b.price.raw),
     );
-    console.log('result: ', result, result.length);
+    this.logger.log(result);
     return result;
   }
 

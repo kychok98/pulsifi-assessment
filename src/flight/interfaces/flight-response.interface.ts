@@ -48,7 +48,7 @@ export interface Airport {
   displayCode: string;
   city: string;
   country: string;
-  parent: Airport;
+  parent?: Airport;
 }
 
 export interface Carrier {

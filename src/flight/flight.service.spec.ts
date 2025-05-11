@@ -1,12 +1,143 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { FlightService } from './flight.service';
+import { SkyscannerService } from './skyscanner/skyscanner.service';
+import { SearchFlightDto } from './dto/search-flight.dto';
+
+const mockFlightData = {
+  itineraries: {
+    buckets: [
+      {
+        id: 'Best',
+        items: [
+          {
+            id: 'mock-1',
+            price: { raw: 400, formatted: '$400' },
+            legs: [
+              {
+                origin: { id: 'JFK', displayCode: 'JFK' },
+                destination: { id: 'HNL', displayCode: 'HNL' },
+                departure: '2024-08-22T10:00:00',
+                durationInMinutes: 300,
+                stopCount: 1,
+                carriers: {
+                  marketing: [{ name: 'Delta', logoUrl: 'logo.png' }],
+                },
+              },
+              {
+                origin: { id: 'HNL' },
+                destination: { id: 'JFK' },
+                departure: '2024-08-25T15:45:00',
+                durationInMinutes: 320,
+                stopCount: 1,
+                carriers: {
+                  marketing: [{ name: 'Delta', logoUrl: 'logo.png' }],
+                },
+              },
+            ],
+          },
+          {
+            id: 'mock-2',
+            price: { raw: 500, formatted: '$500' },
+            legs: [
+              {
+                origin: { id: 'JFK', displayCode: 'JFK' },
+                destination: { id: 'HNL', displayCode: 'HNL' },
+                departure: '2024-08-22T10:00:00',
+                durationInMinutes: 300,
+                stopCount: 1,
+                carriers: {
+                  marketing: [{ name: 'Delta', logoUrl: 'logo.png' }],
+                },
+              },
+              {
+                origin: { id: 'HNL' },
+                destination: { id: 'JFK' },
+                departure: '2024-08-25T15:45:00',
+                durationInMinutes: 320,
+                stopCount: 1,
+                carriers: {
+                  marketing: [{ name: 'Delta', logoUrl: 'logo.png' }],
+                },
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: 'Cheapest',
+        items: [
+          {
+            id: 'mock-2',
+            price: { raw: 400, formatted: '$400' },
+            legs: [
+              {
+                origin: { id: 'JFK', displayCode: 'JFK' },
+                destination: { id: 'HNL', displayCode: 'HNL' },
+                departure: '2024-08-22T10:00:00',
+                durationInMinutes: 300,
+                stopCount: 1,
+                carriers: {
+                  marketing: [{ name: 'Delta', logoUrl: 'logo.png' }],
+                },
+              },
+              {
+                origin: { id: 'HNL' },
+                destination: { id: 'JFK' },
+                departure: '2024-08-25T15:45:00',
+                durationInMinutes: 320,
+                stopCount: 1,
+                carriers: {
+                  marketing: [{ name: 'Delta', logoUrl: 'logo.png' }],
+                },
+              },
+            ],
+          },
+          {
+            id: 'mock-1',
+            price: { raw: 500, formatted: '$500' },
+            legs: [
+              {
+                origin: { id: 'JFK', displayCode: 'JFK' },
+                destination: { id: 'HNL', displayCode: 'HNL' },
+                departure: '2024-08-22T10:00:00',
+                durationInMinutes: 300,
+                stopCount: 1,
+                carriers: {
+                  marketing: [{ name: 'Delta', logoUrl: 'logo.png' }],
+                },
+              },
+              {
+                origin: { id: 'HNL' },
+                destination: { id: 'JFK' },
+                departure: '2024-08-25T15:45:00',
+                durationInMinutes: 320,
+                stopCount: 1,
+                carriers: {
+                  marketing: [{ name: 'Delta', logoUrl: 'logo.png' }],
+                },
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+};
 
 describe('FlightService', () => {
   let service: FlightService;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      providers: [FlightService],
+      providers: [
+        FlightService,
+        {
+          provide: SkyscannerService,
+          useValue: {
+            searchFlights: jest.fn().mockResolvedValue(mockFlightData),
+          },
+        },
+      ],
     }).compile();
 
     service = module.get<FlightService>(FlightService);
@@ -14,5 +145,88 @@ describe('FlightService', () => {
 
   it('should be defined', () => {
     expect(service).toBeDefined();
+  });
+
+  it('should return matched and transformed flights', async () => {
+    const dto: SearchFlightDto = {
+      inDate: '2024-08-22',
+      outDate: '2024-08-25',
+      from: 'JFK',
+      to: 'HNL',
+    };
+
+    const result = await service.searchFlights(dto);
+    expect(result).toHaveLength(2);
+    expect(result[0]).toEqual({
+      id: 'mock-1',
+      price: '$400',
+      carrier: 'Delta',
+      from: 'JFK',
+      to: 'HNL',
+      departTime: '2024-08-22T10:00:00',
+      returnTime: '2024-08-25T15:45:00',
+      durationInMinutes: 620,
+      stops: 2,
+    });
+  });
+
+  it('should return empty array if no match', async () => {
+    const dto: SearchFlightDto = {
+      inDate: '2024-08-22',
+      outDate: '2024-08-25',
+      from: 'LAX',
+      to: 'HNL',
+    };
+
+    const result = await service.searchFlights(dto);
+    expect(result).toEqual([]);
+  });
+
+  it('should filter out if inDate does not match', async () => {
+    const dto: SearchFlightDto = {
+      inDate: '2024-08-21', // mismatch
+      outDate: '2024-08-25',
+      from: 'JFK',
+      to: 'HNL',
+    };
+
+    const result = await service.searchFlights(dto);
+    expect(result).toEqual([]);
+  });
+
+  it('should filter out if outDate does not match', async () => {
+    const dto: SearchFlightDto = {
+      inDate: '2024-08-22',
+      outDate: '2024-08-24', // mismatch
+      from: 'JFK',
+      to: 'HNL',
+    };
+
+    const result = await service.searchFlights(dto);
+    expect(result).toEqual([]);
+  });
+
+  it('should filter out if origin does not match', async () => {
+    const dto: SearchFlightDto = {
+      inDate: '2024-08-22',
+      outDate: '2024-08-25',
+      from: 'LAX', // mismatch
+      to: 'HNL',
+    };
+
+    const result = await service.searchFlights(dto);
+    expect(result).toEqual([]);
+  });
+
+  it('should filter out if destination does not match', async () => {
+    const dto: SearchFlightDto = {
+      inDate: '2024-08-22',
+      outDate: '2024-08-25',
+      from: 'JFK',
+      to: 'SFO', // mismatch
+    };
+
+    const result = await service.searchFlights(dto);
+    expect(result).toEqual([]);
   });
 });
