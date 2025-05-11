@@ -7,6 +7,7 @@ import {
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { HttpErrorFilter } from './common/filters/http-exception.filter';
+import { setupSwagger } from './swagger';
 
 async function bootstrap() {
   const logLevels: LogLevel[] = ['log', 'error', 'warn'];
@@ -17,6 +18,8 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
     logger: logLevels,
   });
+
+  setupSwagger(app);
 
   app.useGlobalPipes(
     new ValidationPipe({
@@ -33,6 +36,7 @@ async function bootstrap() {
     }),
   );
   app.useGlobalFilters(new HttpErrorFilter());
+
   app.setGlobalPrefix('/api');
   app.enableVersioning({
     type: VersioningType.URI,
