@@ -9,7 +9,7 @@ import {
 import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs';
 import * as path from 'path';
-import { firstValueFrom } from 'rxjs';
+import { firstValueFrom, Observable } from 'rxjs';
 import { FlightResponse } from '../interfaces/flight-response.interface';
 
 @Injectable()
@@ -58,5 +58,43 @@ export class SkyscannerService {
         HttpStatus.BAD_GATEWAY,
       );
     }
+  }
+
+  streamFlightSearchSSE(): Observable<MessageEvent> {
+    const mockPath = path.resolve(
+      __dirname,
+      '../../../src/mocks/mock-flight-results.json',
+    );
+
+    const useMock = this.configService.get('USE_FLIGHT_MOCK') === 'true';
+
+    return new Observable((observer) => {
+      const simulatePolling = async () => {
+        observer.next({
+          data: { status: 'searching', sessionId: 'mock-session' },
+        } as MessageEvent);
+
+        let attempts = 0;
+        const maxAttempts = 3;
+
+        while (attempts < maxAttempts) {
+          await new Promise((res) => setTimeout(res, 2000));
+          observer.next({
+            data: { status: 'polling', attempt: attempts + 1 },
+          } as MessageEvent);
+          attempts++;
+        }
+
+        if (useMock) {
+          const mockData = fs.readFileSync(mockPath, 'utf-8');
+          const result = JSON.parse(mockData);
+          observer.next({ data: result } as MessageEvent);
+        }
+
+        observer.complete();
+      };
+
+      simulatePolling();
+    });
   }
 }

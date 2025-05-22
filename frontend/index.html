@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flight Stream</title>
+</head>
+<body>
+<h2>Flight Search Stream</h2>
+<pre id="output">Waiting for updates...</pre>
+
+<script>
+  const output = document.getElementById('output');
+  const source = new EventSource('http://localhost:3000/api/v1/search-flight/stream');
+
+  source.onmessage = (event) => {
+    const data = JSON.parse(event.data);
+    console.log('[SSE]', data);
+    output.textContent += '\n' + JSON.stringify(data, null, 2);
+
+    if (data.status === 'complete') {
+      source.close();
+      output.textContent += '\n✅ Search complete';
+    }
+
+    if (data.status === 'timeout' || data.status === 'error') {
+      source.close();
+      output.textContent += '\n❌ Error occurred';
+    }
+  };
+</script>
+</body>
+</html>
